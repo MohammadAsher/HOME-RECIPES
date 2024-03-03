@@ -1,0 +1,181 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Century;
+    
+}
+body{
+    background-image: url("vegetables-set-left-black-slate.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header{
+                                        
+    height: 100vh;
+    background-position: center;
+    min-height: 100px;
+    
+}
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 30px;
+    margin-right: 645px;
+    min-height: 60px;
+    font-size: 15px;
+}
+ul li{
+    display: inline-block;
+}
+ul li a{
+    text-decoration: none;
+    color: yellow;
+    padding: 5px 20px ;
+    transition: 0.5 ease;
+    font-size: 18px;
+}
+ul li a:hover{
+    background-color: white;
+    color:plum;
+}
+ul li .active a{
+    background-color: white;
+    color: purple;
+}
+.logo img{
+    float: left;
+    width: 150px;
+    height: auto;
+}
+.title{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.title h1{
+    color: white;
+    font-size: 70px;
+}
+.button{
+    position: absolute;
+    top: 52%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+.btn{
+    border: 1px solid lightgoldenrodyellow;
+    padding: 5px 20px;
+    color: tomato;
+    transition: 0.5 ease;
+    font-size: 18px;
+    text-decoration: none;
+    border-radius: 20px;
+}
+.btn:hover{
+    background-color: black;
+    color: aqua;
+}
+.sub-menu{
+    display: none;
+    top: 6%;
+    position: relative;
+}
+.sub-menu ul{
+    position: absolute;
+}
+.main ul li:hover .sub-menu{
+    display: block;
+    position: absolute;
+    background: linear-gradient(250deg, red,yellow,purple);
+    margin-top: 12px;
+    margin-left: -8px;
+}
+.main ul li:hover .sub-menu ul{
+display: block;
+margin: 6px;
+}
+.main ul li:hover .sub-menu ul li{
+    width: 75px;
+    padding: 5px;
+    border-radius: 1px white;
+    background: transparent;
+    transition: 0.4 ease;
+    text-align: left;
+    border-radius: 0px;
+}
+
+/*ABOUT*/
+
+p{
+   
+    animation: fade-Up 1.5s ease;
+    width: 550px;   
+    border: 2px transparent;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    text-align: top(50%);
+    justify-content: left;
+    backdrop-filter: blur(1px);
+    animation: fade-Up 1.5s ease;
+    line-height: 37px;
+    max-width: 700px;
+    height: 50%;
+    margin: 40px;
+    color: #cecece;
+    font-weight: 100;
+    font-size: 22px;
+
+}
+#banner{
+    background-image:url('abiut.jpg') ;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+.button2{
+
+    margin-left: 288px;
+    animation: fade-Up 1.5s ease;
+   
+}
+.btn2{
+    border: 2px solid rgb(19, 18, 17);
+    padding: 5px 20px;
+    color: rgb(0, 0, 0);
+   
+    font-size: 18px;
+    text-decoration: none;
+    border-radius: 20px;
+    
+}
+.btn2:hover{
+    background-color: black;
+    color: aqua;
+}
+.cont{
+    /* border: 2px solid rgb(255, 255, 255); */
+   height: 520px;
+   width: 650px;
+   margin-top: 200px;
+   margin-left: 100px;
+
+}
+nav{
+    top: 10px;
+    left: 40px;
+}
+@keyframes fade-Up {
+    0% {
+        opacity: 0.2;
+        transform: translateY(2.5rem) scale(1);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+    }
+}
+
+/* DESERT */
+
